@@ -1,0 +1,13 @@
+
+/* Reset Css */
+* {
+  padding: 9;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  border: none;
+  outline: none;
+  font-family: "Jost", sans-serif;
+}
