@@ -11,3 +11,13 @@
   outline: none;
   font-family: "Jost", sans-serif;
 }
+
+
+:root {
+  --principal-color: #cf0018;
+  --rosaClaro-color: #ebced3;
+  --secundaria-color: #f4ddd6;
+  --outras-color: #f4ddd6;
+  --secondBg-color: #f5f5f5;
+
+}
