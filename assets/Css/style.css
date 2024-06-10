@@ -1,5 +1,5 @@
 
-/* Reset Css */
+/* Reset Geral Css */
 * {
   padding: 9;
   margin: 0;
@@ -12,7 +12,7 @@
   font-family: "Jost", sans-serif;
 }
 
-
+/* Definindo Cores do Projeto */
 :root {
   --principal-color: #cf0018;
   --rosaClaro-color: #ebced3;
