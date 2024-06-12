@@ -1,7 +1,7 @@
 
 /* Reset Geral Css */
 * {
-  padding: 9;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
@@ -16,9 +16,13 @@
 :root {
   --principal-color: #cf0018;
   --secundaria-color: #ebced3;
-  --color-1: #98ff98;
-  --color-3: #ffd700;
+  --verde-color-: #98ff98;
+  --amarelho-color: #ffd700;
   --texto-color: #000;
+
+  --h1-font: 5rem;
+  --h2-font: 4rem;
+  --p-font: 1.1rem
 
 
   
@@ -37,6 +41,5 @@
 --color-3: #F5F5DC;
 --color-4: #FFF8DC; */
 
-
-
 }
+
