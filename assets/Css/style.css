@@ -9,6 +9,7 @@
   border: none;
   outline: none;
   font-family: "Jost", sans-serif;
+  /* font-family: "Pacifico", cursive; */
 }
 
 /* Definindo Cores do Projeto */
@@ -24,6 +25,8 @@
   --h1-font: 5rem;
   --h2-font: 4rem;
   --p-font: 1.1rem;
+
+
 }
 
 body {
@@ -31,6 +34,7 @@ body {
   color: var(--texto-color);
 }
 
+/* == HEADER == */
 header {
   position: fixed;
   width: 100%;
@@ -39,9 +43,44 @@ header {
   z-index: 1000;
   padding: 35px 12%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  transition: all .50s ease;
 }
-
-
+.logo {
+  font-size: 35px;
+  font-weight: 500;
+  color: var(--texto-color);
+  font-family: "Pacifico", cursive;
+}
+.navlist {
+  display: flex;
+}
+.navlist a {
+  font-size: var(--p-font);
+  font-weight: 500;
+  margin: 0 25px;
+  color: var(--texto-color);
+  transition: all .10s ease;
+}
+.navlist a:hover {
+  color: var(--principal-color);
+  border-bottom: 3px solid var(--principal-color);
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.nav-right i {
+  font-size: 25px;
+  color: var(--texto-color);
+  margin: 0 10px;
+  transition: all .4s ease;
+}
+.nav-right i:hover {
+  color: var(--principal-color);
+}
 
 
 
